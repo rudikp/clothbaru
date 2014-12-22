@@ -1,0 +1,40 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	padding-top: 50px;
+}
+.box-login {
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+}
+.navbar-primary {
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+}
+.cycle-slideshow img, .cycle-slideshow > div { width: 100%; height: auto }
+.pager .disabled {
+	/*display: none;*/
+	position: relative;
+	z-index: -1;
+	opacity: 0;
+}
+
+.pager a {
+	transition: all 0.5s;
+}
+
+/*set a border on the images to prevent shifting*/
+#product_gallery img{border:2px solid white;}
+/*Change the colour*/
+.active img{border:2px solid #333 !important;}
+
+.product_main_image{
+	max-width: 80%;
+}
+.product_gallery_thumb {
+	width: 30%;
+}
